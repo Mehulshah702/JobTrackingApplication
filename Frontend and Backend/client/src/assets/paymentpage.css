@@ -1,0 +1,147 @@
+.payment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .order-summary {
+    background: #f5f5f5;
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+  }
+  
+  .progress-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .step {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: lightgray;
+    margin-right: 10px;
+  }
+  
+  .completed {
+    background: blue;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  
+  .active {
+    background: blue;
+  }
+  
+  .summary-details p {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+  }
+  
+  .total {
+    font-weight: bold;
+  }
+  
+  .amount {
+    color: blue;
+  }
+  
+  .return-link {
+    color: blue;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .payment-details {
+    background: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-method {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .visa {
+    background: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .paypal {
+    color: lightgray;
+  }
+  
+  .payment-details h2 {
+    margin: 10px 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    outline: none;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .exp-date input {
+    width: 40px;
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .checkbox input {
+    margin-right: 5px;
+  }
+  
+  .next-btn {
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .cancel-link {
+    display: block;
+    text-align: center;
+    color: gray;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  
